@@ -1,0 +1,145 @@
+/* Question 1 */
+body {
+    background-color: #ced4d8;
+}
+
+/* Question 2 */
+h1 {
+    color: #AC6AC7;
+}
+
+/* Question 3 */
+h2 {
+    color: rgb(255, 165, 0);
+}
+
+/* Question 4 */
+li {
+    color: rgb(6, 90, 16);
+    /* color: #0000ff; */
+    /* color: rgb(0, 0, 255); */
+}
+
+/* Question 5 */
+p {
+    background-color: rgb(191, 13, 13);
+}
+
+/* Question 6 */
+input[type="text"],
+[type="email"] {
+    border: 5px dotted pink;
+}
+
+/* input[type="email"] {
+    border: 5px dotted pink;
+} */
+
+/* Question 7 */
+.first {
+    background-color: #fff;
+}
+
+/* Question 8 */
+#important {
+    border: 3px dashed #00f;
+    /* border: 3px dashed #0000ff; */
+}
+
+
+div>p {
+    font-size: 30px;
+}
+
+
+input[type="email"] {
+    background-color: #808080;
+}
+
+
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+
+/* Question 12 */
+/* div:nth-of-type(3) p:nth-of-type(2){
+    border: 7px solid rgb(255, 255, 255);
+} */
+
+/* OR */
+/* div:nth-of-type(3) p:last-child{
+    border: 7px solid rgb(255, 255, 255);
+} */
+
+/* OR */
+div~ :nth-of-type(odd)>p~p {
+    border: 7px solid rgb(235, 235, 25);
+}
+
+/* Question 13 */
+em {
+    color: seashell;
+    font: 25px;
+}
+
+/* OR */
+/* div:nth-of-type(3) em {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+/* div p em {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+/* div em {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+/* div p :nth-child(1) {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+div:nth-of-type(3) p:nth-of-type(1) em {
+    color: seashell;
+    font-size: 25px;
+}
+
+/* BONUS */
+/* 1 */
+/* input:checked{
+    margin-left: 40px;
+} */
+
+/* OR */
+:checked {
+    margin-left: 40px;
+}
+
+/* 2 */
+label {
+    text-transform: lowercase;
+}
+
+/* 3 */
+#important::first-letter{
+    color: limegreen;
+    font-size: 90px;
+}
+
+/* 4 */
+h1:hover {
+    color: navy;
+}
+
+/* 5 */
+a:visited {
+    color: silver;
+}
